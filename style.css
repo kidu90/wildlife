@@ -1,0 +1,828 @@
+/* reset same default style*/
+@import url(https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500&display=swap);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:gainsboro;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    height: 80px;
+    position: relative;
+    
+}
+.logo{
+    font-size: 40px;
+    font-weight: 700;
+    color: green;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    transition: ease 0.5s;
+}
+.menu ul li a:hover{
+    color:green;
+}
+.hamburger{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    display: none;
+    cursor: pointer;
+}
+.line{
+    height: 3px;
+    width: 25px;
+    background-color: green;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/newwall.jpeg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.hero-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 32px;
+    max-width: 80%;
+    text-align: center;
+    color: white;
+}
+.hero-text a{
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px;
+    background-color:rgb(32, 160, 32);
+    transition: ease 0.5s;
+    color: white;
+    border-color: darkgreen;
+}
+.mobile-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    flex-direction: column;
+    background: white;
+    padding: 40px;
+    display: none;
+    width: 100px;
+    transition: ease 0.5s;
+}
+.mobile-menu ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 30px;
+}
+.hero-text a:hover{
+    background-color: rgb(97, 198, 97);
+}
+
+#intro {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+#intro img{
+    border-radius: 20px;
+    width: 600px;
+}
+#intro h1{
+    font-size: 40px;
+}
+#intro p{
+    font-size: 19px;
+    margin-top: 30px;
+}
+.intro-text a{
+    text-decoration: none;
+    border-radius:20px ;
+    background-color: rgb(32, 160, 32);
+    padding: 15px;
+    color: aliceblue;
+    transition: ease 0.5s;
+
+}
+.intro-text a:hover{
+    background-color: rgb(85, 193, 85);
+}
+.one{
+    background-color: green;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.one h1{
+    font-size: 35px;
+    margin:30PX;
+}
+.one-text ul li{
+    font-size:  22px; 
+    margin: 40px;
+}
+.two{
+    justify-content: center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.218)), 
+        url(images/elepant\ 1.jpeg);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 500px;
+    background-size: cover;
+    margin-top: 25px;
+    background-attachment: fixed;
+
+}
+
+.two h2{
+    font-size: 30px;
+    margin: 30px;
+    color: aliceblue;
+}
+.two-text ol li{
+    font-size: 25px;
+    margin: 40px;
+    color: aliceblue;
+}
+
+#intro-dep{
+    line-height: 1.0cm;
+    padding-top: 30px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.218)),
+       url(images/monkey.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+   
+}
+#intro-dep a{
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 8px;
+    background-color:rgb(21, 90, 36);
+    transition: ease(0.4s);
+    color: white;
+    border-color: rgb(8, 105, 8);
+    font-size: 18px;
+
+   
+}
+    
+#intro-dep h1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 70px;
+    margin-top: 20px;
+   
+
+}
+
+
+
+
+#gallery h1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 60px;
+    font-size: 40px;
+    
+}
+
+.g-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 20px;
+    margin-top: 30px;
+
+}
+.g-row img{
+    width: 500px;
+    border-radius: 15px;
+    height: 300px;
+   
+}
+.g-img:hover:hover,
+.g-row :hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.map-dep{
+    margin-top: 40px;
+    border-radius: 20px;
+}
+#intro2-dep{
+    background-color: rgb(15, 93, 15);
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 45px;
+    display: flex;
+    color: white;
+    margin-top: 35px;
+
+}
+
+
+
+#intro2-dep ul li{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+#intro2-dep img{
+   width: 300px;
+   margin-left: 150px;
+    
+}
+#intro-wild{
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.218)),
+       url(images/deer.jpeg);
+    width: 100%;
+    align-items: center;
+    height: 500px;
+    background-size: cover;
+    color: white;
+
+}
+#intro-wild h1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-size: 80px;
+    padding-top: 15px;
+
+}
+
+
+
+#wildlife-locations h2{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 25px;
+
+}
+
+#wildlife-locations h3{
+    font-size: 40px;
+    color: darkgreen;
+    margin-top: 40px;
+    margin-left: 20px;
+
+}
+.location-1 iframe{
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.location-1 img{
+    width: 500px;
+    height: 400px;
+    margin-left: 160px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.location-1{
+    display: flex;
+}
+#wildlife-locations p{
+    font-size: 20px;
+    margin-top: 30px;
+    line-height: 0.9cm;
+    background-color: rgb(65, 136, 65);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+
+}
+.location-2{
+    display: flex;
+    padding-top: 20px;
+}
+.location-2 img{
+    width: 500px;
+    height: 450px;
+    margin-left: 160px;
+    border-radius: 20px;
+
+}
+.location-2 iframe{
+    margin-left: 20px;
+    border-radius: 20px;
+   
+}
+#wildlife-summary h2{
+    margin-top: 50px;
+    font-size: 30px;
+    margin-left: 20px;
+
+}
+
+table {
+    width: 700px;
+    height: 500px;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 60px;
+
+    
+
+}
+
+table, th, td {
+    border: 3px solid #065108;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    font-size: 18px;
+}
+th, tfoot{
+    background-color: rgb(112, 155, 112);
+}
+#intro-leo{
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.218)),
+       url(images/leo-wall.jpeg);
+    width: 100%;
+    align-items: center;
+    height: 500px;
+    background-size: cover;
+    color: white;
+    
+}
+#intro-leo h1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 80px;
+    padding-top: 20px;
+}
+#leo-venues h2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+    padding-top: 80px;
+    color: #065108;
+}
+.Venues{
+    margin-left: 20px;
+}
+.Venues h3{
+    font-size: 25px;
+    padding-top: 70px;
+
+
+}
+.Venues p{
+    font-size: 20px;
+    line-height: 0.8cm;
+    padding-top: 20px;
+    
+}
+.leo-img-1{
+    width: 300px;
+    display: flex;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.leo-img-l{
+    margin-left: 90px;
+    border-radius: 20px;
+}
+.leo-img-r{
+    border-radius: 20px;
+}
+.leo-img-2{
+    width: 300px;
+    display: flex;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.leo-img-l2{
+    margin-left: 90px;
+    border-radius: 20px;
+}
+.leo-img-r2{
+    border-radius: 20px;
+}
+.leo-img-3{
+    width: 300px;
+    display: flex;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.leo-img-l3{
+    margin-left: 90px;
+    border-radius: 20px;
+}
+.leo-img-r3{
+    border-radius: 20px;
+}
+
+.habitat img {
+    margin-left: 330px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.threat h3{
+    font-size: 30px;
+    margin-top: 30px;
+
+}
+.threat p{
+    font-size: 20px;
+    line-height: 0.8cm;
+    margin-top: 20px;
+}
+.threat{
+    margin-left: 20px;
+}
+.threat-info a{
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px;
+    background-color:rgb(19, 81, 19);
+    transition: ease 0.5s;
+    color: white;
+    border-color: darkgreen;
+}
+.threat-info a:hover{
+    background-color: #2a862d;
+}
+.threat-info ul h3{
+    font-size: 25px;
+}
+.threat-info ul li{
+    font-size: 18px;
+    margin-left: 20px;
+    line-height: 0.8cm;
+}
+.Poaching img{
+    margin-left: 330px;
+    margin-top: 150px;
+    border-radius: 20px;
+    width: 600px;
+    height: 400px;
+    
+}
+#leo-Facts{
+    background-color:  #166919;
+    margin-top: 50px;
+    padding: 50px;
+    border-radius: 20px;
+}
+#leo-Facts h2{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-size: 40px;
+    margin-bottom: 20px;
+
+
+}
+#leo-Facts ul li{
+    font-size: 20px;
+    line-height: 1.0cm;
+    
+    
+}
+#leo-Facts:hover{
+    transform: scale(0.9);
+    transition: transform 0.4s ease-in-out;
+}
+
+#animal-intro{
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.218)),
+       url(images/animals.jpeg);
+    width: 100%;
+    align-items: center;
+    height: 500px;
+    background-size: cover;
+    color: white;
+   
+}
+#animal-intro h1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-size: 80px;
+    padding-top: 15px;
+}
+#breif ol li{
+    margin-left: 30px;
+    font-size: 20px;
+    line-height: 0.7cm;
+    margin-top: 20px;
+}
+#breif p{
+    font-size: 20px;
+    line-height: 0.8cm;
+    margin-top: 30px;
+}
+#breif{
+    margin-left: 20px;
+    margin-top: 60px;
+}
+#breif h2{
+    font-size: 30px;
+    color: #043406;
+
+}
+.breif-pic{
+    display: flex;
+}
+.breif-pic img{
+    width: 500px;
+    margin-left: 70px;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+#explore{
+    background-color: #1b7a1e;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+#explore h2{
+    font-size: 30px;
+}
+#explore p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+#marine h2{
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: #043406;
+
+}
+#marine p{
+    font-size: 20px;
+    line-height: 0.8cm;
+    margin-top: 13px;
+}
+#marine{
+    margin-left: 20px;
+}
+#marine img{
+    width: 550px;
+    border-radius: 20px;
+    margin-left: 350px;
+    margin-bottom: 20px;
+}
+
+
+.footer{
+    padding: 40px;
+    padding-bottom: 20px;
+    border: 2px solid rgb(40, 135, 40);
+    
+    
+}
+.footer ul{
+    list-style:none;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.footer-col ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    display: block;
+}
+
+.social-links img{
+    width: 40px;
+    height: 40px;
+    
+}
+.social-links img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+#footer2{
+   text-align: center;
+   color: white;
+   font-size: 20px;
+   padding: 10px;
+   background-color: green;
+   
+}
+
+
+
+
+@media screen and (max-width:1024px) {
+    .hero-text{
+        font-size: 24px;
+    }
+    .desktop-menu li{
+        display: none;
+    }
+    .open{
+        display: flex;
+    }
+    .hamburger{
+        display: flex;
+    }
+    #intro{
+        flex-direction: column;
+
+    }
+    #intro img{
+        margin-top: 20px;
+        width: 400px;
+    }
+    .one-text ul li{
+        font-size: 18px;
+    }
+    .two-text ol li{
+    font-size: 18px;
+     }
+    .footer-col{
+        width: 100%;
+        flex-direction: column;
+        
+    }
+    .footer-col h4{
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    
+    
+    #intro-dep h1{
+        font-size: 40px;
+    }
+    .g-row{
+        flex-direction: column;
+    }
+    .map-dep iframe{
+        height: 450px;
+        width: 600px;
+        padding-left: 25px;
+    }
+    #intro2-dep ul li{
+        font-size: 18px;
+
+    }
+    #intro2-dep img{
+        width: 300px;
+        height: 200px;
+    }
+    #intro-wild h1{
+        font-size: 50px;
+    }
+    #intro-wild p{
+        font-size: 18px;
+    }
+    .location-1{
+        flex-direction: column;
+    }
+    .location-1 img{
+        margin-left: 20px;
+    }
+    .location-2{
+        flex-direction: column;
+    }
+    .location-2 img{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    #wildlife-locations p{
+        font-size: 18px;
+    }
+    table{
+        height: 400px;
+        width: 400px;
+    }
+    #intro-leo h1{
+        font-size: 50px
+    }
+    #leo-venues p{
+        font-size: 18px;
+
+    }
+    .leo-img-1{
+        flex-direction: column;
+        width: 300px;
+    }
+    .leo-img-l{
+        margin-top: 30px;
+    }
+    .leo-img-2{
+        flex-direction: column;
+    }
+    .leo-img-l2{
+        margin-top: 30px;
+    }
+    .leo-img-3{
+        flex-direction: column;
+
+    }
+    .leo-img-l3{
+        margin-top: 30px;
+    }
+    .habitat img{
+        margin-left: 20px;
+        width: 400px;
+    }
+    .Poaching img{
+        margin-left: 20px;
+        width: 400px;
+    }
+    #leo-Facts ul li{
+        font-size: 18px;
+    }
+    #animal-intro h1{
+        font-size: 50px;
+        
+    }
+    #breif p{
+        font-size: 18px;
+    }
+    #breif ol li{
+        font-size: 18px;
+    }
+    .breif-pic{
+        flex-direction: column;
+    }
+    .breif-pic img{
+        width: 400px;
+    }
+    #marine p{
+        font-size: 18px; 
+    }
+    #marine img{
+        margin-left: 20px;
+        width: 400px;
+    }
+    
+
+}
+

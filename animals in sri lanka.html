@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri lankan wildlife</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <h1 class="logo">wildlife</h1>
+            <ul class="desktop-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="department of wildlife.html">Department of Wildlife</a></li>
+                <li><a href="Sri lankan wildlife.html">Sri lankan Wildlife</a></li>
+                <li><a href="sri lankan leopard.html">Sri lankan leopard</a></li>
+                <li><a href="animals in sri lanka.html">Animals in Sri Lanka</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="mobile-menu"><ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="department of wildlife.html">Department of Wildlife</a></li>
+                <li><a href="Sri lankan wildlife.html">Sri lankan Wildlife</a></li>
+                <li><a href="sri lankan leopard.html">Sri lankan leopard</a></li>
+                <li><a href="animals in sri lanka.html">Animals in Sri Lanka</a></li>
+            </ul></div>
+        </nav>
+    </header>
+   <main>
+    <section id="animal-intro">
+        <h1>Animals in Sri Lanka</h1>
+    </section>
+    <section id="breif">
+        <h2>Indigenous animals in Sri Lanka</h2>
+        <p>Sri Lanka, an island nation in South Asia, boasts a rich biodiversity that includes a variety of indigenous animals.
+            The country's diverse ecosystems, ranging from lush rainforests to coastal habitats, provide habitats for a unique array of wildlife.
+        </p>
+        <ol>
+            <li>The Sri Lankan elephant, a subspecies of the Asian elephant, is an iconic and revered species. These elephants inhabit various habitats, including national parks and forested areas.</li>
+            <li>The Sri Lankan leopard is a sub-species of leopard found only on the island. Known for its distinctive appearance and adaptability, it is one of the top predators in Sri Lanka.</li>
+            <li>the purple-faced leaf monkey, this primate species is endemic to Sri Lanka. It resides in the country's rainforests and is recognized by its distinctive purple face.</li>
+            <li>The sloth bear is native to Sri Lanka and is primarily found in dry and arid regions. These bears are known for their unique appearance and feeding habits.</li>
+            <li>The sambar deer is one of the largest deer species and is widespread in Sri Lanka. It inhabits various habitats, including forests and grasslands.</li>
+        </ol>
+        <div class="breif-pic">
+            <img src="images/indigenous 1.jpeg">
+            <img src="images/indiginous 2.jpeg" >
+        </div>
+    </section>
+    <section id="explore">
+        <h2>Explore more...</h2>
+        <p>Sri Lanka is home to a diverse array of wildlife, with a rich biodiversity that includes various mammals, birds, reptiles, amphibians, and marine species.You can explore more about them in ;</p>
+        <ul>
+            <li><a href="yala national park.html">Yala national park</a></li>
+            <li><a href="Wilpathu national park.html">Wilpathu national park</a></li>
+        </ul>
+    </section>
+    <section id="marine">
+        <h2>Marine Life is Sri Lanka</h2>
+        <p>Sri Lanka, with its extensive coastline and diverse marine environments, is home to a rich array of marine life.
+            Sri Lanka is one of the best places in the world for spotting blue whales.
+        </p>
+        <p>Sri Lanka's coastal areas are home to vibrant coral reefs, hosting a diverse range of marine life. Coral reefs are essential ecosystems that support numerous fish species, invertebrates, and provide critical breeding grounds.
+            The coral reefs around Sri Lanka are teeming with colorful reef fish. Diverse species such as parrotfish, angelfish, butterflyfish, and many others contribute to the vibrant underwater ecosystem.
+        </p>
+        <p>Sri Lanka's marine biodiversity is a crucial component of the island's natural heritage, attracting marine enthusiasts, divers, and researchers from around the world.</p>
+        <img src="images/coral.jpeg">
+    </section>
+    <footer class="footer">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Wildlife</h4>
+                <ul>
+                    <li><a href="Sri lankan wildlife.html">Sri Lankan wildlife</a></li>
+                    <li><a href="department of wildlife.html">Department of wildlife</a></li>
+                    <li><a href="sri lankan leopard.html">Sri Lankan leopard</a></li>
+                    <li><a href="animals in sri lanka.html">Animals in Sri Lanka</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>National Parks</h4>
+                <ul>
+                    <li><a href="yala national park">Yala</a> </li>
+                    <li><a href="wilpathu national park">Wilpathu</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact us</h4>
+                <ul>
+                    <li><a href="#">srilankanwildlife@gmail.com</a></li>
+                    <li><a href="#">srilankanwildlife@yahoo.com</a></li>
+                    <li>0112 638 94</li>
+                </ul>
+    
+            </div>
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                    <ul>
+                        <li><a href="#" target="_blank"
+                            title="Instagram"><img src="images/insta.svg" alt="Insta"></a></li>
+                            <li><a href="#" target="_blank"
+                                title="Facebook"><img src="images/fb.svg" alt="fb"></a></li>
+                                <li><a href="#" target="_blank"
+                                    title="twitter"><img src="images/twit.svg" alt="twit"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <section id="footer2">
+    <footer2>
+    <p> &copy; Sri Lankan Wildlife. All rights reserved.</p>
+    </footer2>
+    </section>
+   </main>
+   <script>
+    const hamburger = document.getElementById("hamburger");
+    const mobileMenu = document.querySelector(".mobile-menu");
+    hamburger.addEventListener("click", () => {
+      mobileMenu.classList.toggle("open");
+    });
+  </script>
+</body>
