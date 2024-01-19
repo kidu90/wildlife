@@ -9,19 +9,26 @@ body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color:gainsboro;
 }
+header{
+    position: fixed;
+    width: 100%;
+}
 .menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px;
-    height: 80px;
+    height: 55px;
     position: relative;
+    background-color:gainsboro;
+    padding: 30px;
+    z-index: 1000;
     
 }
 .logo{
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 700;
-    color: green;
+    color: rgb(28, 118, 28);
+    
 }
 .menu ul{
     display: flex;
@@ -36,7 +43,7 @@ body{
     transition: ease 0.5s;
 }
 .menu ul li a:hover{
-    color:green;
+    color:rgb(33, 137, 33);
 }
 .hamburger{
     display: flex;
@@ -69,7 +76,11 @@ body{
     max-width: 80%;
     text-align: center;
     color: white;
+    opacity: 0; 
+    animation: fadeIn 2s ease-in-out forwards; /* Animation properties */
 }
+
+
 .hero-text a{
     text-decoration: none;
     border-radius: 20px;
@@ -203,9 +214,11 @@ body{
     align-items: center;
     justify-content: center;
     display: flex;
-    font-size: 70px;
-    margin-top: 20px;
-   
+    font-size: 60px;
+    margin-top: 50px;
+    opacity: 0; 
+    animation: fadeIn 2s ease-in-out forwards;
+    
 
 }
 
@@ -254,6 +267,7 @@ body{
     display: flex;
     color: white;
     margin-top: 35px;
+    border-radius: 20px;
 
 }
 
@@ -285,9 +299,10 @@ body{
     align-items: center;
     text-align: center;
     display: flex;
-    font-size: 80px;
-    padding-top: 15px;
-
+    font-size: 70px;
+    padding-top: 70px;
+    opacity: 0; 
+    animation: fadeIn 2s ease-in-out forwards;
 }
 
 
@@ -354,7 +369,6 @@ body{
     margin-left: 20px;
 
 }
-
 table {
     width: 700px;
     height: 500px;
@@ -394,8 +408,10 @@ th, tfoot{
     align-items: center;
     justify-content: center;
     display: flex;
-    font-size: 80px;
-    padding-top: 20px;
+    font-size: 65px;
+    padding-top: 60px;
+    opacity: 0; 
+    animation: fadeIn 2s ease-in-out forwards;
 }
 #leo-venues h2{
     align-items: center;
@@ -556,8 +572,10 @@ th, tfoot{
     align-items: center;
     text-align: center;
     display: flex;
-    font-size: 80px;
-    padding-top: 15px;
+    font-size: 65px;
+    padding-top: 60px;
+    opacity: 0; 
+    animation: fadeIn 2s ease-in-out forwards;
 }
 #breif ol li{
     margin-left: 30px;
@@ -628,7 +646,8 @@ th, tfoot{
 .footer{
     padding: 40px;
     padding-bottom: 20px;
-    border: 2px solid rgb(40, 135, 40);
+    background-color:#a7bda8;
+    margin-top: 30px;
     
     
 }
@@ -636,7 +655,7 @@ th, tfoot{
     list-style:none;
 
 }
-.row{
+.f-row{
     display: flex;
     flex-wrap: wrap;
 }
@@ -671,9 +690,18 @@ th, tfoot{
    color: white;
    font-size: 20px;
    padding: 10px;
-   background-color: green;
+   background-color: rgb(38, 127, 38);
    
 }
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+    
 
 
 
@@ -825,4 +853,127 @@ th, tfoot{
     
 
 }
+@media screen and (max-width:320px) {
+    .hamburger{
+        margin-right: 10px;
+    }
+    .mobile-menu{
+        margin-right: 10px;
+    }
+    .hero-text h1{
+        margin-top: 70px;
+    }
+    .hero-text p{
+        font-size: 14px;
+    }
+    .intro-text h1{
+        font-size: 20px;
+    }
+    #intro p{
+        font-size: 13px;
+    }
+    #intro img{
+        width: 200px;
+    }
+    .one-text ul li{
+        font-size: 13px;
+
+    }
+    .footer-col{
+        font-size: 16px;
+    }
+    #gallery h1{
+        font-size: 20px;
+    }
+    .g-row img{
+        width: 200px;
+        height: 200px;
+    }
+    .map-dep iframe{
+        width: 300px;
+        height: 200px;
+    }
+    #intro2-dep ul li{
+        font-size: 14px;
+    }
+    #intro2-dep img{
+        width: 40px;
+        height: 30px;
+    }
+    #wildlife-locations h3{
+        font-size: 20px;
+    }
+    .location-1 iframe{
+        width: 200px;
+        height: 200px;
+    }
+    .location-1 img{
+        width: 250px;
+        height: 300px;
+    }
+    #wildlife-locations p{
+        font-size: 14px;
+    }
+    .location-2 iframe{
+        width: 200px;
+        height: 200px;
+    }
+    .location-2 img{
+        width: 250px;
+        height: 300px;
+  }
+    #intro-leo h1{
+        font-size: 25px;
+    }
+    #leo-venues h2{
+        font-size: 20px;
+    }
+    .Venues h3{
+        font-size: 20px;
+    }
+    
+    .leo-img-r{
+        margin-right: 120px; 
+    }
+    .leo-img-l{
+        margin-right: 400px;
+        width: 100px;
+    }
+    .leo-img-r2{
+        margin-right: 200px;
+        width: 200px;
+    }
+    .leo-img-l2{
+        width: 100px;
+    }
+    .leo-img-r3{
+        width: 200px;
+    }
+    .leo-img-l3{
+        width: 100px;
+    }
+    .habitat img{
+        width: 200px;
+    }
+    .Poaching img{
+        width: 200px;
+        height: 200px;
+    }
+    .breif-pic img{
+        width: 200px;
+    }
+    #marine img{
+        width: 200px;
+    }
+    #leo-facts ul li{
+        font-size: 16px;
+    }
+    .threat a{
+        padding: 15px;
+        width: 200px;
+    }
+
+    
+}
+
 

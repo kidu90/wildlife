@@ -18,8 +18,143 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    font-size: 80px;
-    padding-top: 20px;
+    font-size: 65px;
+    padding-top: 100px;
     color: white;
     margin-bottom: 370px;
+    opacity: 0; 
+    animation: fadeIn 2s ease-in-out forwards;
 }
+#sub-1 h2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 50px;
+    font-size: 30px;
+    color: darkgreen;
+    margin-bottom: 30px;
+
+}
+
+
+#sub-1 {
+    display: flex;
+    justify-content: center;
+    margin: 70px;
+    
+}
+#sub-1 img{
+    border-radius: 20px;
+    width: 400px;
+    margin-left: 10px;
+}
+#sub-1 h1{
+    font-size: 40px;
+    color: rgb(6, 58, 6);
+}
+#sub-1 p{
+    font-size: 19px;
+    margin-top: 30px;
+}
+.sub-1-text a{
+    text-decoration: none;
+    border-radius:20px ;
+    background-color: rgb(18, 72, 18);
+    padding: 15px;
+    color: aliceblue;
+    transition: ease 0.5s;
+
+}
+.sub-1-text a:hover{
+    background-color: rgb(85, 193, 85);
+}
+#sub-2{
+    background-color: rgb(47, 122, 47);
+    padding: 40px;
+    border-radius: 20px;
+}
+#sub-2 h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+#sub-2 ul li{
+    font-size: 19px;
+    line-height: 0.8cm;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 20px;
+    margin-top: 30px;
+
+}
+
+.row img{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+#gallery-2 h1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 50px;
+    font-size: 35px;
+    color: rgb(18, 74, 18);
+    margin-bottom: 30px;
+}
+
+
+.row-img:hover:hover,
+.row :hover {
+    transform: scale(1.03);
+    transition: transform 0.3s ease-in-out;
+}
+@media screen and (max-width:1024px){
+    #yala-intro h1{
+        font-size: 35px;
+    }
+    #sub-1{
+        flex-direction: column;
+    }
+   #sub-1 h1{
+    font-size: 20px;
+   }
+   #sub-1 p{
+    font-size: 18px;
+   }
+   #sub-1 img{
+    margin-top: 30px;
+    width: 300px;
+   }
+   #sub-2 h2{
+    font-size: 20px;
+   }
+   #sub-2 ul li{
+    font-size: 16px;
+   }
+   .row{
+    flex-direction: column;
+   }
+   .row img{
+    width: 400px;
+    height: 200px;
+   }
+
+}
+@media screen and (max-width:320px) {
+    #sub-1 img{
+        width: 200px;
+    }
+    .row img{
+        width: 200px;
+    }
+}
+    
+
+    
+
+
+

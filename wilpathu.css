@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wilpathu-intro{
+    justify-content: center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.218)), 
+        url(images/wil\ cover.jpeg);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 500px;
+    background-size: cover;
+    color: white;
+}
+#wilpathu-intro h1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 65px;
+    padding-top: 100px;
+    color: white;
+    margin-bottom: 370px;
+    opacity: 0; 
+    animation: fadeIn 2s ease-in-out forwards;
+}
+#sub-1 h1{
+    justify-content: center;
+align-items: center;
+display: flex;
+margin-top: 50px;
+font-size: 35px;
+color: rgb(18, 74, 18);
+margin-bottom: 30px;
+
+}
+#sub-1 p{
+    justify-content: center;
+align-items: center;
+display: flex;
+font-size: 20px;
+margin-left: 30px;
+
+}
+.sub-1-text a{
+    text-decoration: none;
+    border-radius:20px ;
+    background-color: rgb(43, 147, 43);
+    padding: 15px;
+    color: aliceblue;
+    transition: ease 0.5s;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 500px;
+    margin-left: 500px;
+
+}
+.sub-1-text a:hover{
+    background-color: rgb(85, 193, 85);
+}
+#sub-1 img{
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 400px;
+    border-radius: 20px;
+}
+#sub-2 h2{
+    font-size: 35px;
+    margin-top: 40px;
+    margin-left: 20px;
+    color: rgb(14, 57, 14);
+}
+#sub-2 ul li{
+    font-size: 20px;
+    margin: 40px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 20px;
+    margin-top: 30px;
+
+}
+
+.row img{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+.row img {
+    transform: rotate(0);
+    transition: transform 0.4s ease-in-out;
+}
+
+.row img:hover {
+    transform: rotate(10deg);
+}
+@media screen and (max-width:1024px){
+    #wilpathu-intro h1{
+        font-size: 35px;
+    }
+    #sub-1 h1{
+        font-size: 25px;
+    }
+    #sub-1 p{
+        font-size: 18px;
+    }
+    .sub-1-text a{
+        padding: 10px;
+        margin-left: 60px;
+    }
+    #sub-1 img{
+        width: 300px;
+        margin-left: 60px;
+    }
+    #sub-2 h2{
+        font-size: 25px;
+    }
+    #sub-2 ul li{
+        font-size: 18px;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .row img{
+        width: 300px;
+        height: 200px;
+    }
+}
+@media screen and (max-width:320px) {
+    #sub-1 img{
+        width: 200px;
+    }
+    .sub-1-text a{
+        padding: 20px;
+    }
+}
