@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,9 @@
     <link rel="icon" type="image/x" href="images/zoo-svgrepo-com.svg">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <button id="editBtn" class="floating-btn"></button>
     <header>
         <nav class="menu">
             <h1 class="logo">wildlife</h1>
@@ -17,46 +20,56 @@
                 <li><a href="Sri lankan wildlife.html">Sri lankan Wildlife</a></li>
                 <li><a href="sri lankan leopard.html">Sri lankan leopard</a></li>
                 <li><a href="animals in sri lanka.html">Animals in Sri Lanka</a></li>
+                <li id="login"></li>
             </ul>
             <div class="hamburger" id="hamburger">
                 <div class="line"></div>
                 <div class="line"></div>
                 <div class="line"></div>
             </div>
-            <div class="mobile-menu"><ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="department of wildlife.html">Department of Wildlife</a></li>
-                <li><a href="Sri lankan wildlife.html">Sri lankan Wildlife</a></li>
-                <li><a href="sri lankan leopard.html">Sri lankan leopard</a></li>
-                <li><a href="animals in sri lanka.html">Animals in Sri Lanka</a></li>
-            </ul></div>
+            <div class="mobile-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="department of wildlife.html">Department of Wildlife</a></li>
+                    <li><a href="Sri lankan wildlife.html">Sri lankan Wildlife</a></li>
+                    <li><a href="sri lankan leopard.html">Sri lankan leopard</a></li>
+                    <li><a href="animals in sri lanka.html">Animals in Sri Lanka</a></li>
+                    <li id="loginMobile"></li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main>
         <section id="intro-wild">
-                <h1>Sri Lankan Wildlife</h1>
+            <h1>Sri Lankan Wildlife</h1>
         </section>
         <section id="wildlife-locations">
             <h2>Wildlife Locations </h2>
             <h3>Udawalawe National Park</h3>
             <div class="location-1">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2066.358881126523!2d80.87454024946189!3d6.475014360542879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae408ff88887e79%3A0xaf12e79ffbd980d7!2sUdawalawe%20National%20Park!5e0!3m2!1sen!2slk!4v1705140801100!5m2!1sen!2slk" width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <img src="images/udawalawe.jpeg">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2066.358881126523!2d80.87454024946189!3d6.475014360542879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae408ff88887e79%3A0xaf12e79ffbd980d7!2sUdawalawe%20National%20Park!5e0!3m2!1sen!2slk!4v1705140801100!5m2!1sen!2slk"
+                    width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div id="uImg">
+
+                </div>
             </div>
-            <p>Udawalawe National Park is a national park on the boundary of Sabaragamuwa and Uva Provinces in Sri Lanka. The park was created to provide a sanctuary for wild animals displaced by the construction of the Udawalawe Reservoir on the Walawe River.
-                Alongside its famous elephant herds, the park is home to mongooses, jackals, water monitor lizards, lots of crocodiles, sloth bears and the occasional leopard.
-                Visitors to Udawalawe National Park often take safari tours to explore the park and witness the fascinating wildlife
+            <p id="udawalaweText">
             </p>
 
             <h3>Horton Plains National Park</h3>
             <div class="location-2">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.673994588103!2d80.79975837436109!3d6.8094513197756426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3882edb4b78ef%3A0xcebca89153777249!2sHorton%20Plains%20National%20Park!5e0!3m2!1sen!2slk!4v1705168779258!5m2!1sen!2slk" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <img src="images/hortain.jpeg">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.673994588103!2d80.79975837436109!3d6.8094513197756426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3882edb4b78ef%3A0xcebca89153777249!2sHorton%20Plains%20National%20Park!5e0!3m2!1sen!2slk!4v1705168779258!5m2!1sen!2slk"
+                    width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div id="hImg">
+
+                </div>
             </div>
-            <p>Horton Plains National Park is a national park in the central highlands of Sri Lanka that was designated in 1988. It is located at an elevation of 2,100–2,300 m (6,900–7,500 ft) and encompasses montane grassland and cloud forest. It is rich in biodiversity and many species found here are endemic to the region.
-                The most frequent site of wildlife at Horton Plains are herds of Sambar Deer. Among the other mammals in the park are Strip-necked Mongoose, Long-tailed Giant Squirrel Wild Boar
-            </p>
-            
+            <p id="hortainText"></p>
+
         </section>
         <section id="wildlife-summary">
             <h2>Wildlife summary</h2>
@@ -72,27 +85,30 @@
                     <tr>
                         <td>Elephant</td>
                         <td>The Sri Lankan elephant is the largest of the three subspecies of the Asian subspecies.</td>
-                        <td><img src="images/elephant-sum.jpeg" height="150" ></td>
+                        <td><img src="images/elephant-sum.jpeg" height="150"></td>
                     </tr>
                     <tr>
                         <td>Sambar Deer</td>
-                        <td>Large herds of sambar deer roam the Horton Plains National Park, where it is the most common large mammal.</td>
+                        <td>Large herds of sambar deer roam the Horton Plains National Park, where it is the most common
+                            large mammal.</td>
                         <td><img src="images/samber .jpeg" height="200"></td>
                     </tr>
                     <tr>
                         <td>The purple-faced langur</td>
-                        <td>The purple-faced langur is a species of Old World monkey that is endemic to Sri Lanka.Mostly found in Sinharaja Reserve</td>
+                        <td>The purple-faced langur is a species of Old World monkey that is endemic to Sri Lanka.Mostly
+                            found in Sinharaja Reserve</td>
                         <td><img src="images/lagur.webp" height="150"></td>
                     </tr>
-                    <tfoot>
-                        <tr>
-                            <td colspan="3">Sri Lanka's national parks, totaling over 8,000 square kilometers, are vital sanctuaries for the country's diverse wildlife</td>
-                        </tr>
-                    </tfoot>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Sri Lanka's national parks, totaling over 8,000 square kilometers, are vital
+                            sanctuaries for the country's diverse wildlife</td>
+                    </tr>
+                </tfoot>
                 </tbody>
             </table>
         </section>
-        
+
 
     </main>
     <footer class="footer">
@@ -126,32 +142,36 @@
                 <h4>follow us</h4>
                 <div class="social-links">
                     <ul>
-                        <li><a href="#" target="_blank"
-                            title="Instagram"><img src="images/insta.svg" alt="Insta"></a></li>
-                            <li><a href="#" target="_blank"
-                                title="Facebook"><img src="images/fb.svg" alt="fb"></a></li>
-                                <li><a href="#" target="_blank"
-                                    title="twitter"><img src="images/twit.svg" alt="twit"></a></li>
+                        <li><a href="#" target="_blank" title="Instagram"><img src="images/insta.svg" alt="Insta"></a>
+                        </li>
+                        <li><a href="#" target="_blank" title="Facebook"><img src="images/fb.svg" alt="fb"></a></li>
+                        <li><a href="#" target="_blank" title="twitter"><img src="images/twit.svg" alt="twit"></a></li>
                     </ul>
                 </div>
             </div>
+            <div class="Subscribe">
+                <p>Subscribe to our newsletter for updates:</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input class="newsInput" type="email" id="email" placeholder="Your email address" required>
+                    <button class="newsButton" type="submit">Subscribe</button>
+                </form>
+            </div>
         </div>
-</footer>
-<section id="footer2">
-<footer2>
-    <p> &copy; Sri Lankan Wildlife. All rights reserved.</p>
-</footer2>
-</section>
-    
-    
+    </footer>
+    <section id="footer2">
+        <footer2>
+            <p> &copy; Sri Lankan Wildlife. All rights reserved.</p>
+        </footer2>
+    </section>
+
+
     <script>
         const hamburger = document.getElementById("hamburger");
         const mobileMenu = document.querySelector(".mobile-menu");
         hamburger.addEventListener("click", () => {
-          mobileMenu.classList.toggle("open");
+            mobileMenu.classList.toggle("open");
         });
-      </script>
-      
-</body>
+    </script>
+    <script src="wildlife.js"></script>
 
-    
+</body>

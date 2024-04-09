@@ -1,40 +1,47 @@
 /* reset same default style*/
 @import url(https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500&display=swap);
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color:gainsboro;
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: gainsboro;
 }
-header{
-    position: fixed;
+
+header {
+    /* position: fixed; */
     width: 100%;
 }
-.menu{
+
+.menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 55px;
     position: relative;
-    background-color:gainsboro;
+    background-color: gainsboro;
     padding: 30px;
     z-index: 1000;
-    
+
 }
-.logo{
+
+.logo {
     font-size: 35px;
     font-weight: 700;
     color: rgb(28, 118, 28);
-    
+
 }
-.menu ul{
+
+.menu ul {
     display: flex;
     list-style: none;
     gap: 30px;
 }
+
 .menu ul li a {
     text-decoration: none;
     color: black;
@@ -42,22 +49,26 @@ header{
     font-weight: 500;
     transition: ease 0.5s;
 }
-.menu ul li a:hover{
-    color:rgb(33, 137, 33);
+
+.menu ul li a:hover {
+    color: rgb(33, 137, 33);
 }
-.hamburger{
+
+.hamburger {
     display: flex;
     flex-direction: column;
     gap: 5px;
     display: none;
     cursor: pointer;
 }
-.line{
+
+.line {
     height: 3px;
     width: 25px;
     background-color: green;
 }
-.hero{
+
+.hero {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,7 +78,8 @@ header{
     background-size: cover;
     width: 100%;
 }
-.hero-text{
+
+.hero-text {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,21 +88,23 @@ header{
     max-width: 80%;
     text-align: center;
     color: white;
-    opacity: 0; 
-    animation: fadeIn 2s ease-in-out forwards; /* Animation properties */
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+    /* Animation properties */
 }
 
 
-.hero-text a{
+.hero-text a {
     text-decoration: none;
     border-radius: 20px;
     padding: 10px;
-    background-color:rgb(32, 160, 32);
+    background-color: rgb(32, 160, 32);
     transition: ease 0.5s;
     color: white;
     border-color: darkgreen;
 }
-.mobile-menu{
+
+.mobile-menu {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -105,13 +119,15 @@ header{
     width: 100px;
     transition: ease 0.5s;
 }
-.mobile-menu ul{
+
+.mobile-menu ul {
     display: flex;
     flex-direction: column;
     list-style: none;
     gap: 30px;
 }
-.hero-text a:hover{
+
+.hero-text a:hover {
     background-color: rgb(97, 198, 97);
 }
 
@@ -120,46 +136,55 @@ header{
     justify-content: center;
     margin: 40px;
 }
-#intro img{
+
+#intro img {
     border-radius: 20px;
     width: 600px;
 }
-#intro h1{
+
+#intro h1 {
     font-size: 40px;
 }
-#intro p{
+
+#intro p {
     font-size: 19px;
     margin-top: 30px;
 }
-.intro-text a{
+
+.intro-text a {
     text-decoration: none;
-    border-radius:20px ;
+    border-radius: 20px;
     background-color: rgb(32, 160, 32);
     padding: 15px;
     color: aliceblue;
     transition: ease 0.5s;
 
 }
-.intro-text a:hover{
+
+.intro-text a:hover {
     background-color: rgb(85, 193, 85);
 }
-.one{
+
+.one {
     background-color: green;
     padding-top: 50px;
     padding-bottom: 50px;
 
 }
-.one h1{
+
+.one h1 {
     font-size: 35px;
-    margin:30PX;
+    margin: 30PX;
 }
-.one-text ul li{
-    font-size:  22px; 
+
+.one-text ul li {
+    font-size: 22px;
     margin: 40px;
 }
-.two{
+
+.two {
     justify-content: center;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.218)), 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.218)),
         url(images/elepant\ 1.jpeg);
     width: 100%;
     display: flex;
@@ -171,22 +196,23 @@ header{
 
 }
 
-.two h2{
+.two h2 {
     font-size: 30px;
     margin: 30px;
     color: aliceblue;
 }
-.two-text ol li{
+
+.two-text ol li {
     font-size: 25px;
     margin: 40px;
     color: aliceblue;
 }
 
-#intro-dep{
+#intro-dep {
     line-height: 1.0cm;
     padding-top: 30px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.218)),
-       url(images/monkey.jpeg);
+        url(images/monkey.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
@@ -195,46 +221,47 @@ header{
     align-items: center;
     text-align: center;
 
-   
+
 }
-#intro-dep a{
+
+#intro-dep a {
     text-decoration: none;
     border-radius: 20px;
     padding: 8px;
-    background-color:rgb(21, 90, 36);
+    background-color: rgb(21, 90, 36);
     transition: ease(0.4s);
     color: white;
     border-color: rgb(8, 105, 8);
     font-size: 18px;
 
-   
+
 }
-    
-#intro-dep h1{
+
+#intro-dep h1 {
     align-items: center;
     justify-content: center;
     display: flex;
     font-size: 60px;
     margin-top: 50px;
-    opacity: 0; 
+    opacity: 0;
     animation: fadeIn 2s ease-in-out forwards;
-    
+
 
 }
 
 
 
 
-#gallery h1{
+#gallery h1 {
     align-items: center;
     justify-content: center;
     display: flex;
     margin-top: 60px;
     font-size: 40px;
-    
+
 }
 
-.g-row{
+.g-row {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -243,23 +270,26 @@ header{
     margin-top: 30px;
 
 }
-.g-row img{
+
+.g-row img {
     width: 500px;
     border-radius: 15px;
     height: 300px;
-   
+
 }
+
 .g-img:hover:hover,
 .g-row :hover {
     transform: scale(1.1);
     transition: transform 0.3s ease-in-out;
 }
 
-.map-dep{
+.map-dep {
     margin-top: 40px;
     border-radius: 20px;
 }
-#intro2-dep{
+
+#intro2-dep {
     background-color: rgb(15, 93, 15);
     margin-top: 30px;
     padding-top: 20px;
@@ -273,20 +303,22 @@ header{
 
 
 
-#intro2-dep ul li{
+#intro2-dep ul li {
     font-size: 20px;
     margin-top: 40px;
     margin-left: 20px;
 }
-#intro2-dep img{
-   width: 300px;
-   margin-left: 150px;
-    
+
+#intro2-dep img {
+    width: 300px;
+    margin-left: 150px;
+
 }
-#intro-wild{
+
+#intro-wild {
     justify-content: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.218)),
-       url(images/deer.jpeg);
+        url(images/deer.jpeg);
     width: 100%;
     align-items: center;
     height: 500px;
@@ -294,39 +326,42 @@ header{
     color: white;
 
 }
-#intro-wild h1{
+
+#intro-wild h1 {
     justify-content: center;
     align-items: center;
     text-align: center;
     display: flex;
     font-size: 70px;
     padding-top: 70px;
-    opacity: 0; 
+    opacity: 0;
     animation: fadeIn 2s ease-in-out forwards;
 }
 
 
 
-#wildlife-locations h2{
+#wildlife-locations h2 {
     font-size: 30px;
     margin-left: 20px;
     margin-top: 25px;
 
 }
 
-#wildlife-locations h3{
+#wildlife-locations h3 {
     font-size: 40px;
     color: darkgreen;
     margin-top: 40px;
     margin-left: 20px;
 
 }
-.location-1 iframe{
+
+.location-1 iframe {
     margin-top: 20px;
     margin-left: 20px;
     border-radius: 20px;
 }
-.location-1 img{
+
+.location-1 img {
     width: 500px;
     height: 400px;
     margin-left: 160px;
@@ -334,10 +369,11 @@ header{
     border-radius: 20px;
 }
 
-.location-1{
+.location-1 {
     display: flex;
 }
-#wildlife-locations p{
+
+#wildlife-locations p {
     font-size: 20px;
     margin-top: 30px;
     line-height: 0.9cm;
@@ -347,73 +383,86 @@ header{
     border-radius: 20px;
 
 }
-.location-2{
+
+.location-2 {
     display: flex;
     padding-top: 20px;
 }
-.location-2 img{
+
+.location-2 img {
     width: 500px;
     height: 450px;
     margin-left: 160px;
     border-radius: 20px;
 
 }
-.location-2 iframe{
+
+.location-2 iframe {
     margin-left: 20px;
     border-radius: 20px;
-   
-}
-#wildlife-summary h2{
-    margin-top: 50px;
-    font-size: 30px;
-    margin-left: 20px;
 
 }
+
+#wildlife-summary h2 {
+    margin-top: 50px;
+    font-size: 30px;
+    margin-left: 500px;
+
+}
+
 table {
-    width: 700px;
+    width: 1000px;
     height: 500px;
     border-collapse: collapse;
     margin-top: 20px;
-    margin-left: 25px;
+    margin-left: 150px;
     margin-bottom: 60px;
 
-    
+
 
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 3px solid #065108;
 }
 
-th, td {
+th,
+td {
     padding: 10px;
     text-align: left;
     font-size: 18px;
 }
-th, tfoot{
+
+th,
+tfoot {
     background-color: rgb(112, 155, 112);
 }
-#intro-leo{
+
+#intro-leo {
     justify-content: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.218)),
-       url(images/leo-wall.jpeg);
+        url(images/leo-wall.jpeg);
     width: 100%;
     align-items: center;
     height: 500px;
     background-size: cover;
     color: white;
-    
+
 }
-#intro-leo h1{
+
+#intro-leo h1 {
     align-items: center;
     justify-content: center;
     display: flex;
     font-size: 65px;
     padding-top: 60px;
-    opacity: 0; 
+    opacity: 0;
     animation: fadeIn 2s ease-in-out forwards;
 }
-#leo-venues h2{
+
+#leo-venues h2 {
     align-items: center;
     justify-content: center;
     display: flex;
@@ -421,64 +470,89 @@ th, tfoot{
     padding-top: 80px;
     color: #065108;
 }
-.Venues{
+
+.Venues {
     margin-left: 20px;
 }
-.Venues h3{
+
+.Venues h3 {
     font-size: 25px;
     padding-top: 70px;
 
 
 }
-.Venues p{
+
+.Venues p {
     font-size: 20px;
     line-height: 0.8cm;
     padding-top: 20px;
-    
+
 }
-.leo-img-1{
-    width: 300px;
+
+.leo-img-1 img {
+    width: 500px;
+    display: flex;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+
+}
+
+.leo-img-1 {
+    display: flex;
+}
+
+.leo-img-l {
+    margin-left: 90px;
+    border-radius: 20px;
+}
+
+.leo-img-r {
+    border-radius: 20px;
+}
+
+.leo-img-2 img {
+    width: 500px;
     display: flex;
     height: 300px;
     margin-left: 50px;
     margin-top: 20px;
     border-radius: 20px;
 }
-.leo-img-l{
+
+.leo-img-2 {
+    display: flex;
+}
+
+.leo-img-l2 {
     margin-left: 90px;
     border-radius: 20px;
 }
-.leo-img-r{
+
+.leo-img-r2 {
     border-radius: 20px;
 }
-.leo-img-2{
-    width: 300px;
+
+.leo-img-3 img {
+    width: 500px;
     display: flex;
     height: 300px;
     margin-left: 50px;
     margin-top: 20px;
     border-radius: 20px;
 }
-.leo-img-l2{
-    margin-left: 90px;
-    border-radius: 20px;
-}
-.leo-img-r2{
-    border-radius: 20px;
-}
-.leo-img-3{
-    width: 300px;
+
+.leo-img-3 {
     display: flex;
-    height: 300px;
-    margin-left: 50px;
-    margin-top: 20px;
-    border-radius: 20px;
 }
-.leo-img-l3{
+
+.leo-img-l3 {
     margin-left: 90px;
     border-radius: 20px;
 }
-.leo-img-r3{
+
+.leo-img-r3 {
     border-radius: 20px;
 }
 
@@ -488,54 +562,63 @@ th, tfoot{
     border-radius: 20px;
 }
 
-.threat h3{
+.threat h3 {
     font-size: 30px;
     margin-top: 30px;
 
 }
-.threat p{
+
+.threat p {
     font-size: 20px;
     line-height: 0.8cm;
     margin-top: 20px;
 }
-.threat{
+
+.threat {
     margin-left: 20px;
 }
-.threat-info a{
+
+.threat-info a {
     text-decoration: none;
     border-radius: 20px;
     padding: 10px;
-    background-color:rgb(19, 81, 19);
+    background-color: rgb(19, 81, 19);
     transition: ease 0.5s;
     color: white;
     border-color: darkgreen;
 }
-.threat-info a:hover{
+
+.threat-info a:hover {
     background-color: #2a862d;
 }
-.threat-info ul h3{
+
+.threat-info ul h3 {
     font-size: 25px;
 }
-.threat-info ul li{
+
+.threat-info ul li {
     font-size: 18px;
     margin-left: 20px;
     line-height: 0.8cm;
 }
-.Poaching img{
+
+.Poaching img {
     margin-left: 330px;
     margin-top: 150px;
     border-radius: 20px;
     width: 600px;
     height: 400px;
-    
+
 }
-#leo-Facts{
-    background-color:  #166919;
+
+#leo-Facts {
+    background-color: #166919;
     margin-top: 50px;
     padding: 50px;
     border-radius: 20px;
 }
-#leo-Facts h2{
+
+#leo-Facts h2 {
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -545,130 +628,152 @@ th, tfoot{
 
 
 }
-#leo-Facts ul li{
+
+#leo-Facts ul li {
     font-size: 20px;
     line-height: 1.0cm;
-    
-    
+
+
 }
-#leo-Facts:hover{
+
+#leo-Facts:hover {
     transform: scale(0.9);
     transition: transform 0.4s ease-in-out;
 }
 
-#animal-intro{
+#animal-intro {
     justify-content: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.218)),
-       url(images/animals.jpeg);
+        url(images/animals.jpeg);
     width: 100%;
     align-items: center;
     height: 500px;
     background-size: cover;
     color: white;
-   
+
 }
-#animal-intro h1{
+
+#animal-intro h1 {
     justify-content: center;
     align-items: center;
     text-align: center;
     display: flex;
     font-size: 65px;
     padding-top: 60px;
-    opacity: 0; 
+    opacity: 0;
     animation: fadeIn 2s ease-in-out forwards;
 }
-#breif ol li{
+
+#breif ol li {
     margin-left: 30px;
     font-size: 20px;
     line-height: 0.7cm;
     margin-top: 20px;
 }
-#breif p{
+
+#breif p {
     font-size: 20px;
     line-height: 0.8cm;
     margin-top: 30px;
 }
-#breif{
+
+#breif {
     margin-left: 20px;
     margin-top: 60px;
 }
-#breif h2{
+
+#breif h2 {
     font-size: 30px;
     color: #043406;
 
 }
-.breif-pic{
+
+.breif-pic {
     display: flex;
 }
-.breif-pic img{
+
+.breif-pic img {
     width: 500px;
     margin-left: 70px;
     margin-top: 40px;
     border-radius: 20px;
 }
-#explore{
+
+#explore {
     background-color: #1b7a1e;
     padding: 30px;
     margin-top: 40px;
     border-radius: 20px;
 }
-#explore h2{
+
+#explore h2 {
     font-size: 30px;
 }
-#explore p{
+
+#explore p {
     margin-top: 15px;
     margin-bottom: 15px;
     font-size: 18px;
 }
-#marine h2{
+
+#marine h2 {
     font-size: 30px;
     margin-top: 40px;
     margin-bottom: 30px;
     color: #043406;
 
 }
-#marine p{
+
+#marine p {
     font-size: 20px;
     line-height: 0.8cm;
     margin-top: 13px;
 }
-#marine{
+
+#marine {
     margin-left: 20px;
 }
-#marine img{
+
+#marine img {
     width: 550px;
     border-radius: 20px;
     margin-left: 350px;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 
-.footer{
+.footer {
     padding: 40px;
     padding-bottom: 20px;
-    background-color:#a7bda8;
+    background-color: #a7bda8;
     margin-top: 30px;
-    
-    
-}
-.footer ul{
-    list-style:none;
+
 
 }
-.f-row{
+
+.footer ul {
+    list-style: none;
+
+}
+
+.f-row {
     display: flex;
     flex-wrap: wrap;
 }
-.footer-col{
+
+.footer-col {
     width: 25%;
     padding: 0 15px;
 }
-.footer-col h4{
+
+.footer-col h4 {
     font-size: 20px;
     text-transform: capitalize;
     margin-bottom: 30px;
 }
-.footer-col ul li a{
+
+.footer-col ul li a {
     font-size: 18px;
     text-decoration: none;
     font-weight: 500;
@@ -676,304 +781,469 @@ th, tfoot{
     display: block;
 }
 
-.social-links img{
+.social-links img {
     width: 40px;
     height: 40px;
-    
+
 }
-.social-links img:hover{
+
+.social-links img:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease-in-out;
 }
-#footer2{
-   text-align: center;
-   color: white;
-   font-size: 20px;
-   padding: 10px;
-   background-color: rgb(38, 127, 38);
-   
+
+#footer2 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(38, 127, 38);
+
 }
+
+#login {
+
+    background-color: #1a8b1e;
+    padding: 3px;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+#login :hover {
+    color: #043406;
+}
+
+#loginMobile {
+    background-color: #1a8b1e;
+    padding: 3px;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+#loginMobile :hover {
+    color: #043406;
+}
+
+
+
+
+.floating-btn {
+    position: fixed;
+    top: 100px;
+    right: 50px;
+    background-image: url('edit-content-svgrepo-com.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 15px;
+    padding: 17px;
+    border-color: rgb(0, 0, 0);
+
+}
+
+.floating-btn :hover {
+    background-color: rgb(59, 57, 57);
+}
+
+
+
+
+
+.hiddenBtn {
+    display: none;
+}
+
+#board {
+    background-color: #065108;
+}
+
+.Subscribe p {
+    font-weight: bold;
+    font-size: 20px;
+    color: #043406;
+}
+
+.newsInput {
+    margin-left: 80px;
+    margin-top: 15px;
+    padding: 10px;
+    border-color: #043406;
+}
+
+.newsButton {
+    padding: 5px;
+    background-color: #578659;
+}
+
+.Subscribe {
+    margin-left: 400px;
+}
+
+#returnbtn {
+    text-decoration: none;
+}
+
+
+
 @keyframes fadeIn {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
 }
-    
+
 
 
 
 
 @media screen and (max-width:1024px) {
-    .hero-text{
+    .hero-text {
         font-size: 24px;
     }
-    .desktop-menu li{
+
+    .desktop-menu li {
         display: none;
     }
-    .open{
+
+    .open {
         display: flex;
     }
-    .hamburger{
+
+    .hamburger {
         display: flex;
     }
-    #intro{
+
+    #intro {
         flex-direction: column;
 
     }
-    #intro img{
+
+    #intro img {
         margin-top: 20px;
         width: 400px;
     }
-    .one-text ul li{
+
+    .one-text ul li {
         font-size: 18px;
     }
-    .two-text ol li{
-    font-size: 18px;
-     }
-    .footer-col{
+
+    .two-text ol li {
+        font-size: 18px;
+    }
+
+    .footer-col {
         width: 100%;
         flex-direction: column;
-        
+
     }
-    .footer-col h4{
+
+    .footer-col h4 {
         margin-bottom: 30px;
         margin-top: 30px;
     }
-    
-    
-    #intro-dep h1{
+
+
+    #intro-dep h1 {
         font-size: 40px;
     }
-    .g-row{
+
+    .g-row {
         flex-direction: column;
     }
-    .map-dep iframe{
+
+    .map-dep iframe {
         height: 450px;
         width: 600px;
         padding-left: 25px;
     }
-    #intro2-dep ul li{
+
+    #intro2-dep ul li {
         font-size: 18px;
 
     }
-    #intro2-dep img{
+
+    #intro2-dep img {
         width: 300px;
         height: 200px;
     }
-    #intro-wild h1{
+
+    #intro-wild h1 {
         font-size: 50px;
     }
-    #intro-wild p{
+
+    #intro-wild p {
         font-size: 18px;
     }
-    .location-1{
+
+    .location-1 {
         flex-direction: column;
     }
-    .location-1 img{
+
+    .location-1 img {
         margin-left: 20px;
     }
-    .location-2{
+
+    .location-2 {
         flex-direction: column;
     }
-    .location-2 img{
+
+    .location-2 img {
         margin-left: 20px;
         margin-top: 20px;
     }
-    #wildlife-locations p{
+
+    #wildlife-locations p {
         font-size: 18px;
     }
-    table{
+
+    table {
         height: 400px;
         width: 400px;
     }
-    #intro-leo h1{
+
+    #intro-leo h1 {
         font-size: 50px
     }
-    #leo-venues p{
+
+    #leo-venues p {
         font-size: 18px;
 
     }
-    .leo-img-1{
+
+    .leo-img-1 {
         flex-direction: column;
         width: 300px;
     }
-    .leo-img-l{
+
+    .leo-img-l {
         margin-top: 30px;
     }
-    .leo-img-2{
+
+    .leo-img-2 {
         flex-direction: column;
     }
-    .leo-img-l2{
+
+    .leo-img-l2 {
         margin-top: 30px;
     }
-    .leo-img-3{
+
+    .leo-img-3 {
         flex-direction: column;
 
     }
-    .leo-img-l3{
+
+    .leo-img-l3 {
         margin-top: 30px;
     }
-    .habitat img{
+
+    .habitat img {
         margin-left: 20px;
         width: 400px;
     }
-    .Poaching img{
+
+    .Poaching img {
         margin-left: 20px;
         width: 400px;
     }
-    #leo-Facts ul li{
+
+    #leo-Facts ul li {
         font-size: 18px;
     }
-    #animal-intro h1{
+
+    #animal-intro h1 {
         font-size: 50px;
-        
+
     }
-    #breif p{
+
+    #breif p {
         font-size: 18px;
     }
-    #breif ol li{
+
+    #breif ol li {
         font-size: 18px;
     }
-    .breif-pic{
+
+    .breif-pic {
         flex-direction: column;
     }
-    .breif-pic img{
+
+    .breif-pic img {
         width: 400px;
     }
-    #marine p{
-        font-size: 18px; 
+
+    #marine p {
+        font-size: 18px;
     }
-    #marine img{
+
+    #marine img {
         margin-left: 20px;
         width: 400px;
     }
-    
+
 
 }
+
 @media screen and (max-width:320px) {
-    .hamburger{
+    .hamburger {
         margin-right: 10px;
     }
-    .mobile-menu{
+
+    .mobile-menu {
         margin-right: 10px;
     }
-    .hero-text h1{
+
+    .hero-text h1 {
         margin-top: 70px;
     }
-    .hero-text p{
+
+    .hero-text p {
         font-size: 14px;
     }
-    .intro-text h1{
+
+    .intro-text h1 {
         font-size: 20px;
     }
-    #intro p{
+
+    #intro p {
         font-size: 13px;
     }
-    #intro img{
+
+    #intro img {
         width: 200px;
     }
-    .one-text ul li{
+
+    .one-text ul li {
         font-size: 13px;
 
     }
-    .footer-col{
+
+    .footer-col {
         font-size: 16px;
     }
-    #gallery h1{
+
+    #gallery h1 {
         font-size: 20px;
     }
-    .g-row img{
+
+    .g-row img {
         width: 200px;
         height: 200px;
     }
-    .map-dep iframe{
+
+    .map-dep iframe {
         width: 300px;
         height: 200px;
     }
-    #intro2-dep ul li{
+
+    #intro2-dep ul li {
         font-size: 14px;
     }
-    #intro2-dep img{
+
+    #intro2-dep img {
         width: 40px;
         height: 30px;
     }
-    #wildlife-locations h3{
+
+    #wildlife-locations h3 {
         font-size: 20px;
     }
-    .location-1 iframe{
+
+    .location-1 iframe {
         width: 200px;
         height: 200px;
     }
-    .location-1 img{
+
+    .location-1 img {
         width: 250px;
         height: 300px;
     }
-    #wildlife-locations p{
+
+    #wildlife-locations p {
         font-size: 14px;
     }
-    .location-2 iframe{
+
+    .location-2 iframe {
         width: 200px;
         height: 200px;
     }
-    .location-2 img{
+
+    .location-2 img {
         width: 250px;
         height: 300px;
-  }
-    #intro-leo h1{
+    }
+
+    #intro-leo h1 {
         font-size: 25px;
     }
-    #leo-venues h2{
+
+    #leo-venues h2 {
         font-size: 20px;
     }
-    .Venues h3{
+
+    .Venues h3 {
         font-size: 20px;
     }
-    
-    .leo-img-r{
-        margin-right: 120px; 
+
+    .leo-img-r {
+        margin-right: 120px;
     }
-    .leo-img-l{
+
+    .leo-img-l {
         margin-right: 400px;
         width: 100px;
     }
-    .leo-img-r2{
+
+    .leo-img-r2 {
         margin-right: 200px;
         width: 200px;
     }
-    .leo-img-l2{
+
+    .leo-img-l2 {
         width: 100px;
     }
-    .leo-img-r3{
+
+    .leo-img-r3 {
         width: 200px;
     }
-    .leo-img-l3{
+
+    .leo-img-l3 {
         width: 100px;
     }
-    .habitat img{
+
+    .habitat img {
         width: 200px;
     }
-    .Poaching img{
+
+    .Poaching img {
         width: 200px;
         height: 200px;
     }
-    .breif-pic img{
+
+    .breif-pic img {
         width: 200px;
     }
-    #marine img{
+
+    #marine img {
         width: 200px;
     }
-    #leo-facts ul li{
+
+    #leo-facts ul li {
         font-size: 16px;
     }
-    .threat a{
+
+    .threat a {
         padding: 15px;
         width: 200px;
     }
 
-    
+
 }
-
-

@@ -1,0 +1,49 @@
+body {
+    margin: 30px;
+    background-color: gainsboro;
+}
+
+#jsonData {
+    margin-top: 40px;
+    border-color: rgb(6, 53, 6);
+}
+
+#page {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#pages {
+    font-weight: bold;
+    width: 200px;
+    font-size: 20px;
+}
+
+#select {
+    margin-left: 18px;
+    padding: 15px;
+    font-weight: bold;
+    background-color: rgb(5, 159, 5);
+    border-color: green;
+    border-radius: 20px;
+}
+
+#edit {
+    padding: 15px;
+    font-weight: bold;
+    background-color: rgb(5, 159, 5);
+    border-color: green;
+    margin-left: 5px;
+    border-radius: 20px;
+
+}
+
+#returnbtn a {
+    text-decoration: none;
+    font-size: 17px;
+    padding: 10px;
+    background-color: green;
+    border-radius: 20px;
+    color: black;
+
+}

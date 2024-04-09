@@ -1,0 +1,33 @@
+{
+    "hero": [
+        {
+            "description": "Sri Lanka is a small island in the Indian Ocean, but the biodiversity it possesses is immense. It is home to many endemic species of flora and fauna. The island is also a great place to observe marine mammals, including the mighty blue whale."
+        }
+    ],
+    "intro": [
+        {
+            "description": "The leopard (Panthera pardus) is the smallest of the four big predatory cat species in the genus Panthera, Even though they are considered endangered, Sri Lanka offers the best chances of seeing leopards of any Asian nation. One explanation for this is that because there are larger predators around, leopards tend to hide more. In Sri Lanka The IUCN Red List of 2007 listed the leopard as endangered because of the decline in the leopard population in Sri Lanka. Poaching and the loss of leopard habitat brought on by conflicts between humans and leopards are the causes of the decline.",
+            "image": "images/leopard.webp"
+        }
+    ],
+    "one": [
+        {
+            "list": [
+                "Sri Lanka is the Best for Big Game Safaris outside Africa",
+                "In Minneriya (and Kaudulla) National Park, the largest seasonal recurring concentration of wild elephants occurs from July to September.",
+                "Yala National Park is the best place in the world for seeing and photographing leopards.",
+                "The largest animal to have ever lived on Earth, the blue whale, is best found in Sri Lanka.",
+                "Sri Lanka is home to roughly 123 species of mammals, 41 of which are threatened (9 critically)."
+            ]
+        }
+    ],
+    "two": [
+        {
+            "list": [
+                "Habitat Lost",
+                "Poaching and Illegal wildlife trades",
+                "Climate changes in Sri Lanka"
+            ]
+        }
+    ]
+}

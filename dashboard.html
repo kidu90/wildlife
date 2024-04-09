@@ -4,14 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sri lankan wildlife</title>
-    <link rel="icon" type="image/x" href="images/zoo-svgrepo-com.svg">
+    <title>Welcome to the Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
-    <button id="editBtn" class="floating-btn"></button>
     <header>
         <nav class="menu">
             <h1 class="logo">wildlife</h1>
@@ -21,7 +19,6 @@
                 <li><a href="Sri lankan wildlife.html">Sri lankan Wildlife</a></li>
                 <li><a href="sri lankan leopard.html">Sri lankan leopard</a></li>
                 <li><a href="animals in sri lanka.html">Animals in Sri Lanka</a></li>
-                <li id="login"></li>
             </ul>
             <div class="hamburger" id="hamburger">
                 <div class="line"></div>
@@ -36,48 +33,20 @@
                     <li><a href="sri lankan leopard.html">Sri lankan leopard</a></li>
                     <li><a href="animals in sri lanka.html">Animals in Sri Lanka</a></li>
                     <li id="loginMobile"></li>
-
                 </ul>
             </div>
         </nav>
     </header>
-    <main>
-        <section class="hero">
-            <div class="hero-text">
-                <h1>Wildlife in Sri Lanka</h1>
-                <p id="heroPara"></p>
-                <br>
-                <a href="Sri lankan wildlife.html">View more</a>
-            </div>
-        </section>
-        <section id="intro">
-            <div class="intro-text">
-                <h1>Sri Lankan leopard</h1>
-                <p id="introPara"></p>
-                <p></p>
-                <br><br>
-                <a href="sri lankan leopard.html">View More</a>
-            </div>
-            <div id="introImg">
+    <div class="container">
+        <h1>Dashboard</h1>
+        <div class="subscription-box">
+            <button type="button" id="SubscribeBtn">Subscription Emails</button>
+            <p id="emailList">
 
-            </div>
-        </section>
-        <section class="one">
-            <div class="one-text">
-                <h1>DID YOU KNOW...</h1>
-                <ul id="oneList">
-
-                </ul>
-            </div>
-        </section>
-        <section class="two">
-            <div class="two-text">
-                <h2>Challenges and Threats faced by wildlife</h2>
-                <ol id="twoList">
-
-                </ol>
-            </div>
-        </section>
+            </p>
+        </div>
+    </div>
+    <button id="editBtn" class="floating-btn"></button>
 
     </main>
     <footer class="footer">
@@ -121,8 +90,8 @@
             <div class="Subscribe">
                 <p>Subscribe to our newsletter for updates:</p>
                 <form class="newsletter-form" id="newsletterForm">
-                    <input class="newsInput" type="email" id="email" placeholder="Your email address" required>
-                    <button class="newsButton" type="submit">Subscribe</button>
+                    <input class="newsletter-input" type="email" id="email" placeholder="Your email address" required>
+                    <button class="newsletter-button" type="submit">Subscribe</button>
                 </form>
             </div>
         </div>
@@ -133,16 +102,7 @@
 
         </footer2>
     </section>
-
-
-    <script>
-        const hamburger = document.getElementById("hamburger");
-        const mobileMenu = document.querySelector(".mobile-menu");
-        hamburger.addEventListener("click", () => {
-            mobileMenu.classList.toggle("open");
-        });
-    </script>
-    <script src="index.js"></script>
+    <script src="dashboard.js"></script>
 </body>
 
 </html>

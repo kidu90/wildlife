@@ -1,0 +1,25 @@
+{
+    "gallery": [
+        {
+            "images": [
+                "images/marine.jpeg",
+                "images/park.jpeg",
+                "images/elepant2.jpeg",
+                "images/bird.jpeg",
+                "images/waterfall.webp",
+                "images/leopard4.jpeg"
+            ]
+        }
+    ],
+    "introDep": [
+        {
+            "listItems": [
+                "The department was formed in October 1949",
+                "They have law enforcement powers under the Fauna and Flora Protection",
+                "The current director of the organization is Chandana Sooriyabandara",
+                "Habitats and the associated biodiversity are protected through a network of Protected Areas"
+            ],
+            "image": "images/department.png"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "wilpattuIntro": [
+        {
+            "topic": "Welcome to wilpattu national park..",
+            "description": "Wilpathu National Park, located in the northwestern part of Sri Lanka, stands as the country's largest national park, spanning an impressive 1,317 square kilometers. One of the defining characteristics of Wilpattu is its abundance of villus (lakes), which serve as vital watering holes for the park's wildlife. These water sources attract a variety of animals, including elephants, deer, crocodiles, and numerous bird species, creating a harmonious ecosystem within the park.",
+            "image": "images/wilpathu1.jpeg"
+        },
+        {
+            "topic": "safari experience at wilpattu",
+            "list": [
+                "Wilpattu is renowned for its population of Sri Lankan leopards. The park's diverse habitats,including dense forests and open plains, provide an excellent chance to spot these elusive big cats.",
+                "Wilpattu is home to a significant population of elephants. Safari-goers may have the opportunity to observe these majestic animals, often seen near watering holes or traversing the park's landscapes.",
+                "Spotted deer, axis deer, and other antelope species are common sightings in Wilpattu. The open grassy plains are ideal habitats for these herbivores.",
+                "The park's lakes and waterways are inhabited by mugger crocodiles, water monitors, and various reptiles, offering a unique opportunity to observe these creatures in their natural habitat.",
+                "Visitors typically explore the park in 4x4 safari jeeps accompanied by experienced guides. Jeep safaris provide a comfortable and safe way to navigate the diverse terrain",
+                "Knowledgeable and experienced guides accompany safari expeditions, providing insights into the park's ecology, wildlife behavior, and cultural heritage."
+            ]
+        }
+    ],
+    "gallery": [
+        {
+            "images": [
+                "images/willpatug1.jpeg",
+                "images/w3.jpeg",
+                "images/wilpattu3.jpeg"
+            ]
+        }
+    ]
+}

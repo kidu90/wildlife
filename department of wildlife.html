@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,9 @@
     <link rel="icon" type="image/x" href="images/zoo-svgrepo-com.svg">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <button id="editBtn" class="floating-btn"></button>
     <header>
         <nav class="menu">
             <h1 class="logo">wildlife</h1>
@@ -17,111 +20,120 @@
                 <li><a href="Sri lankan wildlife.html">Sri lankan Wildlife</a></li>
                 <li><a href="sri lankan leopard.html">Sri lankan leopard</a></li>
                 <li><a href="animals in sri lanka.html">Animals in Sri Lanka</a></li>
+                <li id="login"></li>
             </ul>
             <div class="hamburger" id="hamburger">
                 <div class="line"></div>
                 <div class="line"></div>
                 <div class="line"></div>
             </div>
-            <div class="mobile-menu"><ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="department of wildlife.html">Department of Wildlife</a></li>
-                <li><a href="Sri lankan wildlife.html">Sri lankan Wildlife</a></li>
-                <li><a href="sri lankan leopard.html">Sri lankan leopard</a></li>
-                <li><a href="animals in sri lanka.html">Animals in Sri Lanka</a></li>
-            </ul></div>
-        </nav>
-    </header>
-   <main>
-    <section id="intro-dep">
-        <div class="dep-h1">
-            <h1>Department Of Wildlife</h1>
-        </div>
-        <br>
-        <a href=" https://www.dwc.gov.lk">learn More</a>
-    </section>
-
-   <section id="gallery">
-    <h1>Protected Area gallery</h1>
-    <div class="g-row">
-        <img src="images/marine.jpeg" >
-        <img src="images/park.jpeg" > 
-    </div>
-    <div class="g-row">
-        <img src="images/elephan 2.jpeg">
-        <img src="images/bird.jpeg">
-
-    </div>
-    <div class="g-row">
-        <img src="images/waterfall.webp">
-        <img src="images/leo 4.jpeg">
-    </div>
-   </section>
-   <div class="map-dep">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.379162871945!2d79.99577417436213!3d6.964519517882588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae259c6ab0a7547%3A0xc58dfaf84093c1bb!2sDepartment%20of%20Wildlife%20Conservation!5e0!3m2!1sen!2slk!4v1705071635339!5m2!1sen!2slk" width="1274" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-   </div>
-   <section id="intro2-dep">
-    <ul>
-        <li>The department was formed in October 1949</li>
-        <li>They have law enforcement powers under the Fauna and Flora Protection</li>
-        <li>The current director of the organization is Chandana Sooriyabandara</li>
-        <li>Habitats and the associated biodiversity are protected through a network of Protected Areas.</li>
-    </ul>
-    <img src="images/department.png">
-   </section>
-   <footer class="footer">
-    <div class="f-row">
-        <div class="footer-col">
-            <h4>Wildlife</h4>
-            <ul>
-                <li><a href="Sri lankan wildlife.html">Sri Lankan wildlife</a></li>
-                <li><a href="department of wildlife.html">Department of wildlife</a></li>
-                <li><a href="sri lankan leopard.html">Sri Lankan leopard</a></li>
-                <li><a href="animals in sri lanka.html">Animals in Sri Lanka</a></li>
-            </ul>
-        </div>
-        <div class="footer-col">
-            <h4>National Parks</h4>
-            <ul>
-                <li><a href="yala national park">Yala</a> </li>
-                <li><a href="wilpathu national park">Wilpathu</a></li>
-            </ul>
-        </div>
-        <div class="footer-col">
-            <h4>Contact us</h4>
-            <ul>
-                <li><a href="#">srilankanwildlife@gmail.com</a></li>
-                <li><a href="#">srilankanwildlife@yahoo.com</a></li>
-                <li>0112 638 94</li>
-            </ul>
-
-        </div>
-        <div class="footer-col">
-            <h4>follow us</h4>
-            <div class="social-links">
+            <div class="mobile-menu">
                 <ul>
-                    <li><a href="#" target="_blank"
-                        title="Instagram"><img src="images/insta.svg" alt="Insta"></a></li>
-                        <li><a href="#" target="_blank"
-                            title="Facebook"><img src="images/fb.svg" alt="fb"></a></li>
-                            <li><a href="#" target="_blank"
-                                title="twitter"><img src="images/twit.svg" alt="twit"></a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="department of wildlife.html">Department of Wildlife</a></li>
+                    <li><a href="Sri lankan wildlife.html">Sri lankan Wildlife</a></li>
+                    <li><a href="sri lankan leopard.html">Sri lankan leopard</a></li>
+                    <li><a href="animals in sri lanka.html">Animals in Sri Lanka</a></li>
+                    <li id="loginMobile"></li>
                 </ul>
             </div>
+        </nav>
+    </header>
+    <main>
+        <section id="intro-dep">
+            <div class="dep-h1">
+                <h1>Department Of Wildlife</h1>
+            </div>
+            <br>
+            <a href=" https://www.dwc.gov.lk">learn More</a>
+        </section>
+
+        <section id="gallery">
+            <h1>Protected Area gallery</h1>
+            <div id="galleryRow-1" class="g-row">
+            </div>
+
+            <div id="galleryRow-2" class="g-row">
+            </div>
+
+            <div id="galleryRow-3" class="g-row">
+            </div>
+        </section>
+        <div class="map-dep">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.379162871945!2d79.99577417436213!3d6.964519517882588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae259c6ab0a7547%3A0xc58dfaf84093c1bb!2sDepartment%20of%20Wildlife%20Conservation!5e0!3m2!1sen!2slk!4v1705071635339!5m2!1sen!2slk"
+                width="1274" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-    </div>
-</footer>
-<section id="footer2">
-<footer2>
-<p> &copy; Sri Lankan Wildlife. All rights reserved.</p>
-</footer2>
-</section>
-   </main>
-   <script>
-    const hamburger = document.getElementById("hamburger");
-    const mobileMenu = document.querySelector(".mobile-menu");
-    hamburger.addEventListener("click", () => {
-      mobileMenu.classList.toggle("open");
-    });
-  </script>
+        <section id="intro2-dep">
+            <ul id="depList">
+
+            </ul>
+            <div id="depImg">
+
+            </div>
+
+        </section>
+        <footer class="footer">
+            <div class="f-row">
+                <div class="footer-col">
+                    <h4>Wildlife</h4>
+                    <ul>
+                        <li><a href="Sri lankan wildlife.html">Sri Lankan wildlife</a></li>
+                        <li><a href="department of wildlife.html">Department of wildlife</a></li>
+                        <li><a href="sri lankan leopard.html">Sri Lankan leopard</a></li>
+                        <li><a href="animals in sri lanka.html">Animals in Sri Lanka</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>National Parks</h4>
+                    <ul>
+                        <li><a href="yala national park">Yala</a> </li>
+                        <li><a href="wilpathu national park">Wilpathu</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact us</h4>
+                    <ul>
+                        <li><a href="#">srilankanwildlife@gmail.com</a></li>
+                        <li><a href="#">srilankanwildlife@yahoo.com</a></li>
+                        <li>0112 638 94</li>
+                    </ul>
+
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <ul>
+                            <li><a href="#" target="_blank" title="Instagram"><img src="images/insta.svg"
+                                        alt="Insta"></a></li>
+                            <li><a href="#" target="_blank" title="Facebook"><img src="images/fb.svg" alt="fb"></a></li>
+                            <li><a href="#" target="_blank" title="twitter"><img src="images/twit.svg" alt="twit"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="Subscribe">
+                    <p>Subscribe to our newsletter for updates:</p>
+                    <form class="newsletter-form" id="newsletterForm">
+                        <input class="newsInput" type="email" id="email" placeholder="Your email address" required>
+                        <button class="newsButton" type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </footer>
+        <section id="footer2">
+            <footer2>
+                <p> &copy; Sri Lankan Wildlife. All rights reserved.</p>
+            </footer2>
+        </section>
+    </main>
+    <script>
+        const hamburger = document.getElementById("hamburger");
+        const mobileMenu = document.querySelector(".mobile-menu");
+        hamburger.addEventListener("click", () => {
+            mobileMenu.classList.toggle("open");
+        });
+    </script>
+    <script src="department.js"></script>
 </body>
